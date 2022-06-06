@@ -1,0 +1,21 @@
+.img {
+  position: absolute;
+  padding-left: 400px;
+  margin-top: 55px;
+  right: 24%;
+  z-index: -1;
+}
+
+.cont {
+  height: 500px;
+}
+
+/* Photo banner adjustment */
+.illustration-header img {
+  height: 362px;
+}
+/* @media screen and (max-width: 1000px) {
+  .img {
+    display: none;
+  }
+} */

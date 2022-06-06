@@ -1,0 +1,195 @@
+/*Volunteer Page*/
+
+.positions-section {
+    background: #F4F3F2;
+}
+
+.bgd {
+    padding-top: 1.4em; 
+    padding-bottom: 1.4em;
+    margin: -1em;
+    /* background-color: #F5F5F5; */
+}
+
+.header {
+    padding-top: 4em; 
+    padding-bottom: 4em;
+}
+
+/* Header Textbox */
+.boxed {
+    position: relative;
+    background-color: #F5F5F5;
+    width: 65%;
+    height: 25em;
+    padding: 5em 8em 4em 4em;
+    color: #404040;
+    margin: 0em 0em 3em;
+}
+
+.boxed p {
+    color: #49423D;
+    margin-bottom: 0.5em !important;;
+}
+
+.boxed h4 {
+    color: #051B2A;
+}
+
+.positions-title h4 {
+    color: #051B2A;
+    padding-left: 1.2em;
+    padding-bottom: 0.25em;
+}
+
+.img-position {
+    position: absolute; z-index: 2;
+}
+
+.sizing {
+    width: 55%;
+    height: 55%;
+    float: right;
+    position: relative;
+    right: 3em;
+    z-index: 2;
+}
+
+.w3-button {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+    border-color: transparent;
+    background-color: white;
+    box-shadow: 0.2em 0.2em 1em #D4D4D4;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    text-align: left;
+    font-size: 0.8em;
+    width: 18rem;
+    height: 3.75rem;
+    line-height:1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
+}
+
+.w3-button:hover {
+   color: #AF8661;
+}
+
+.w3-button:focus {
+   outline:  none;
+}
+
+.modal-title {
+    padding-top:  1.5rem;
+}
+
+ul p, li {
+    font-size: 0.9rem;
+}
+
+li::marker {
+    color: #AF8661;
+    font-size: 1.3em;
+}
+
+.modal-button {
+    color: #AF8661;
+    border: none;
+    background-color: white;
+    padding: 1em;
+    padding-left: 2em;
+    text-decoration: underline;
+    border: none;
+}
+
+.modal-button:focus {
+   outline: none;
+}
+
+
+/* Illustration banner adjustment */
+.illustration-header img {
+  height: 314px;
+}
+/* Responsive Header Textbox */
+@media screen and (max-width: 1199px) {
+    .boxed h4 {
+      font-size: 1.4em;
+    }
+    .boxed p {
+      font-size: 0.9em;
+    }
+    .sizing {
+        right: 2.5em;
+    }
+}
+  
+@media screen and (max-width: 1024px) {
+    .boxed {
+        padding: 4em 5em 4em 4em;
+        height: 20em;
+    }
+    .boxed h4 {
+        font-size: 0.9em;
+    }
+    .boxed p {
+        font-size: 0.75em;
+    }
+    .sizing {
+        right: 2em;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    .boxed {
+        padding: 4em 5em 4em 4em;
+        height: 20em;
+    }
+    .boxed h4 {
+        font-size: 0.8em;
+    }
+    .boxed p {
+        font-size: 0.6em;
+    }
+    .sizing {
+        right: 2em;
+    }
+}
+
+@media screen and (max-width: 528px) {
+    .boxed {
+        padding: 3em 3em;
+        height: 20em;
+    }
+    .boxed h4 {
+        font-size: 0.7em;
+    }
+    .boxed p {
+        font-size: 0.5em;
+    }
+    .sizing {
+        right: 1em;
+    }
+} 
+
+@media screen and (max-width: 375px) {
+    .boxed {
+        padding: 2em 2em;
+        height: 17em;
+    }
+    .boxed h4 {
+        font-size: 0.65em;
+    }
+    .boxed p {
+        font-size: 0.45em;
+    }
+    .sizing {
+        right: 0em;
+        left: 0.75em;
+    }
+} 

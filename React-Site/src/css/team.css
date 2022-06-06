@@ -1,0 +1,302 @@
+/*Team Page*/
+
+/* Header Box Color and Padding */
+.bgd {
+  margin: 2em;
+  background-color: #F5F5F5;
+}
+
+.team-header {
+  background: linear-gradient(to left, #F4F3F2 92%, #FFFFFF 8%);
+  margin-bottom: 3rem;
+  ;
+}
+
+.mobile {
+  display: none;
+}
+
+.mobile img {
+  border-radius: 50%;
+  height: 120px;
+}
+
+.desktop img {
+  border-radius: 50%;
+  height: 180px;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 0px solid white;
+}
+
+/* Float four columns side by side */
+.column-float {
+  float: left;
+  height: auto;
+  position: center;
+  display: block;
+  margin: 1em 1em;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 0.1em 0.3em 0 rgba(0, 0, 0, 0.2);
+  text-align: left;
+  background-color: white;
+  width: 230px !important;
+  margin-bottom: 2px !important;
+}
+
+.card h2 {
+  font-size: 1.0em;
+  margin-bottom: 0em;
+}
+
+.card p {
+  font-size: 0.8em;
+  color: #AF8661;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 0.6em 1.2em 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add padding inside the card text container */
+.card-text {
+  text-align: center;
+  padding: 0.2em 0.7em;
+  height: 7em;
+}
+
+.card-text p {
+  margin-bottom: -0.1em;
+
+}
+
+.card-text p.hbs {
+  font-style: italic;
+  color: gray !important;
+  margin-bottom: 1em;
+}
+
+.role {
+  color: #AF8661 !important;
+}
+
+.card-image {
+  width: 12em;
+  height: 12em;
+  object-fit: cover;
+  margin: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.card-image {
+  margin-bottom: 0.8em;
+}
+
+.linkedIn-pad {
+  text-align: center;
+}
+
+/* Styling the LinkedIn link */
+.link {
+  color: #AF8661;
+  text-decoration: underline;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 1199px) {
+  .column-float {
+    width: 30%;
+    padding: 1.75em 1em;
+  }
+
+  .card h2 {
+    font-size: 1m;
+    margin-bottom: 0em;
+  }
+
+  .card p {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .column-float {
+    width: 40%;
+    padding: 1.5em 0.75em;
+  }
+
+  .card h2 {
+    font-size: 1m;
+    margin-bottom: 0em;
+  }
+
+  .card p {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .column-float {
+    width: 50%;
+    padding: 1.25em 0.5em;
+  }
+
+  .card h2 {
+    font-size: 1em;
+    margin-bottom: 0em;
+  }
+
+  .card p {
+    font-size: 0.8em;
+  }
+
+  .team-header {
+    background: #F4F3F2;
+    padding-left: 4rem;
+  }
+
+  .mobile {
+    display: contents;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 528px) {
+  .column-float {
+    width: 100%;
+    padding: 1em 2em;
+  }
+
+  .card h2 {
+    font-size: 1em;
+    margin-bottom: 0em;
+  }
+
+  .card p {
+    font-size: 0.8em;
+  }
+}
+
+.max-width {
+  width: 100%;
+}
+
+/* Team member cards */
+.header-card {
+  margin-right: 3rem;
+}
+
+.header-card .position-text {
+  color: #AF8661;
+  font-weight: 600;
+}
+
+.team-header .content {
+  font-size: 1.1rem;
+  padding-right: 4rem;
+}
+
+.fa:hover {
+  color: black;
+}
+
+.subtitle {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+/* Button */
+.team-buttons {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.button-81,
+.temporarily-disabled {
+  background-color: inherit;
+  border: none;
+  margin: 0.5rem 1rem;
+  box-sizing: border-box;
+  color: #444444;
+  cursor: pointer;
+  display: inline-block;
+  width: max-content;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 0;
+  margin-bottom: 5px;
+}
+
+.button-81 h5,
+.temporarily-disabled h5 {
+  font-size: 1rem;
+}
+
+@media (min-width: 1245px) {
+  .icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+
+  .button-81,
+  .temporarily-disabled {
+    font-size: 1.4rem;
+  }
+
+  .button-81,
+  .temporarily-disabled {
+    margin: 0.5rem 2.5rem;
+  }
+}
+
+.temporarily-disabled {
+  color: gray;
+}
+
+.active,
+.button-81:hover {
+  color: #AF8661;
+}
+
+.button-81:hover .default {
+  display: none;
+}
+
+
+.button-81:hover .highlighted {
+  display: block;
+}
+
+.active .default {
+  display: none;
+}
+
+.active .highlighted {
+  display: block;
+}
+
+.button-81:focus,
+.temporarily-disabled:focus {
+  outline: none;
+}
+
+.highlighted {
+  display: none;
+}

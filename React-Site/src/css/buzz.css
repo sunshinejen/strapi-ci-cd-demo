@@ -1,0 +1,40 @@
+/* .img {
+  position: absolute;
+  padding-left: 300px;
+  margin-top: 70px;
+  right: 20%;
+} */
+
+.bigCard {
+  width: 540px;
+}
+
+.page-buzz .illustration-header img {
+  height: 308px;
+}
+
+@media screen and (max-width: 1200px) {
+  /* .img {
+    display: none;
+  } */
+  .bigCard {
+    width: 250px;
+  }
+}
+
+/* More button */
+#see-more-button {
+  color: #af8661;
+  font-size: larger;
+}
+
+#see-more-button:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Down (chevron) arrow */
+#see-more-button i {
+  /* color: orangered; */
+  padding-left: 10px;
+}

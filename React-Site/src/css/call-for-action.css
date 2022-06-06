@@ -1,0 +1,75 @@
+.content {
+  padding: 0rem 3rem;
+}
+
+.navy-text {
+  color: #0b3444;
+}
+
+/* Vision & Mission */
+.header-goal {
+  margin-bottom: 1.5rem;
+}
+
+.header-goal h5 {
+  align-self: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-goal p {
+  font-size: 0.9rem;
+}
+
+.header-goal .row {
+  padding: 0 1rem;
+}
+
+.header-goal .row-height {
+  height: 100px;
+}
+
+/* Disinformation */
+.disinformation {
+  background-color: #f4f3f2;
+}
+
+.disinformation img {
+  width: 100%;
+  margin: 1rem;
+}
+
+.disinformation .row {
+  width: 90%;
+  max-width: 1400px;
+}
+
+/*road-map*/
+.road-map img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.phase,
+.phase-title {
+  color: #af8661;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.phase {
+  width: 80px;
+}
+
+.phase-q {
+  font-style: italic;
+  color: gray;
+  font-weight: 500;
+}
+
+.fa {
+  transform: scaleY(1.6);
+}

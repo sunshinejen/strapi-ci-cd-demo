@@ -1,0 +1,92 @@
+/*Contact Page*/
+.header {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.illustration-header p {
+  color: #6f6957;
+}
+
+.icon {
+  /* width: 6rem;
+  text-align: center;
+  margin-right: 0.8rem; */
+  /* display: flex;
+  flex-direction: column;
+  text-align: center; */
+}
+
+/*span {*/
+/*    display: inline-block;*/
+/*}*/
+
+span .fa-circle {
+  color: rgb(104, 92, 78);
+}
+
+/* Responsive Header Textbox */
+@media screen and (max-width: 1199px) {
+  .boxed h4 {
+    font-size: 1em;
+  }
+  .boxed p {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .boxed {
+    height: 30em;
+  }
+  .boxed h4 {
+    font-size: 0.9em;
+  }
+  .boxed p {
+    font-size: 0.75em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .boxed {
+    padding: 5em 3.25em;
+  }
+  .boxed h4 {
+    font-size: 0.85em;
+  }
+  .boxed p {
+    font-size: 0.6em;
+  }
+  /* .icon {
+    width: 5rem;
+    margin-right: 0.7rem;
+  } */
+}
+
+@media screen and (max-width: 528px) {
+  .boxed {
+    padding: 4em 2.75em;
+  }
+  .boxed h4 {
+    font-size: 0.8em;
+  }
+  .boxed p {
+    font-size: 0.55em;
+  }
+  /* .icon {
+    width: 4rem;
+    margin-right: 0.5rem;
+  } */
+}
+
+@media screen and (max-width: 375px) {
+  .boxed {
+    padding: 3.25em 1.75em;
+  }
+  .boxed h4 {
+    font-size: 0.75em;
+  }
+  .boxed p {
+    font-size: 0.5em;
+  }
+}

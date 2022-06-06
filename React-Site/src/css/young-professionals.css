@@ -1,0 +1,153 @@
+.content {
+  padding: 0rem 3rem;
+}
+
+/*header-content*/
+.header-link {
+  color: #af8661;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Vision & Mission */
+.header-goal {
+  margin-bottom: 1.5rem;
+}
+
+.header-goal h5 {
+  align-self: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-goal p {
+  font-size: 0.9rem;
+}
+
+.header-goal .row {
+  padding: 0 1rem;
+}
+
+.header-goal .row-height {
+  height: 100px;
+}
+
+/* Pop up */
+.close {
+  cursor: pointer;
+  position: absolute;
+  right: 1.5%;
+  top: 1%;
+}
+
+.content-card {
+  width: 50%;
+  padding: 2rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  left: 35%;
+  top: 30%;
+  right: 10%;
+  display: none;
+}
+
+.content-card img {
+  width: 100%;
+  height: auto;
+  padding-top: 0px;
+}
+
+.content-source {
+  font-size: 0.8rem;
+  color: #af8661;
+  padding-top: 2rem;
+}
+
+@media (max-width: 992px) {
+  .content-card img {
+    display: inline;
+  }
+}
+
+/*road-map*/
+.road-map {
+  width: 100%;
+  background-color: #f4f3f2;
+}
+
+.phase,
+.phase-title {
+  color: #af8661;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.phase {
+  width: 80px;
+}
+
+.phase-q {
+  font-style: italic;
+  color: gray;
+  font-weight: 500;
+}
+
+.fa {
+  transform: scaleY(1.6);
+}
+
+/*tech-career*/
+.grid-item {
+  overflow: hidden;
+  position: relative;
+  margin: 1rem;
+}
+
+.wrapper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 22rem);
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+@media (max-width: 992px) {
+  .wrapper-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  width: 20rem;
+  height: 100%;
+  margin-bottom: 2rem;
+}
+
+.card button.read-more-btn {
+  position: absolute;
+  bottom: 14px;
+  border: none;
+  color: #af8661;
+  background-color: white;
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .card {
+    width: fit-content;
+  }
+}
+
+.card img {
+  padding: 1rem;
+}
+
+.card-link {
+  color: #af8661;
+}
+
+.footer {
+  background-color: #f4f3f2;
+}
