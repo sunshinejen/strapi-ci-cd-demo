@@ -5,7 +5,7 @@ name: Deploy to Firebase Hosting on publish Button
 on:
   repository_dispatch:
     types:
-      - webhook
+      - build-website
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
