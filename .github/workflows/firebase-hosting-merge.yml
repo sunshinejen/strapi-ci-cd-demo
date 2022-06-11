@@ -10,7 +10,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm ci && npm run build
+      
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14'
+      
+      - name: Install Project Dependencies
+        run: npm ci
+      
+      - name: Install Gatsby CLI
+        run: npm install -g gatsby-cli@2.12.34
+      
+      - name: Build
+        run: gatsby build
+      
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_STRAPIDEMO_8A6DD }}'
