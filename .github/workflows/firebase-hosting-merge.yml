@@ -17,7 +17,7 @@ jobs:
           secrets: |
             STRAPI_API_URL: ${{ secrets.STRAPI_API_URL}}
             STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }} 
-            file: .env.${{ secrets.NODE_ENV }} 
+            file: .env.production
       
       - name: Install Node.js
         uses: actions/setup-node@v3
