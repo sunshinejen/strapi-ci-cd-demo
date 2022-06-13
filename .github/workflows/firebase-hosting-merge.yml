@@ -16,14 +16,13 @@ jobs:
         with:
           node-version: 14
       
-      - name: Install Project Dependencies
-        run: npm ci
-      
       - name: Install Gatsby CLI
-        run: npm install -g gatsby-cli@2.12.34
+        run: npm install -g gatsby-cli
       
-      - name: Build
-        run: gatsby build
+      - name: Install Project Dependencies & Build
+        run: |
+          npm ci
+          npm run build
       
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
