@@ -18,7 +18,7 @@ jobs:
       
       - name: Install Project Dependencies & Build
         run: |
-          npm ci
+          npm i
           npm run build
         env:
           STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
