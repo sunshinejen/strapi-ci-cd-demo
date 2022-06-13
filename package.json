@@ -8,7 +8,7 @@
       "gatsby"
     ],
     "scripts": {
-      "productionbuild": "NODE_ENV=production gatsby build",
+      "productionbuild": "gatsby build",
       "develop": "gatsby develop",
       "start": "gatsby develop",
       "build": "gatsby build",
