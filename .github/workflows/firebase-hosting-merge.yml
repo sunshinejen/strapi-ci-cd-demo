@@ -20,6 +20,9 @@ jobs:
         run: |
           npm ci
           npm run build
+        env:
+          STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
+          STRAPI_API_URL: ${{ secrets.STRAPI_API_URL }}
       
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
