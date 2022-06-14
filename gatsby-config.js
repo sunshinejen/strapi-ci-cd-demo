@@ -9,10 +9,6 @@ const strapiConfig = {
 };
 
 module.exports = {
-  siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "HiTS Dummy Site",
-  },
   plugins: [
     "gatsby-plugin-fontawesome-css",
     "gatsby-plugin-image",
