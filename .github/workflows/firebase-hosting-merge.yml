@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
     
       - name: Create .env file
         uses: du5rte/create-secrets-file@v1
@@ -18,11 +23,6 @@ jobs:
             STRAPI_API_URL:${{ secrets.STRAPI_API_URL}}
             STRAPI_TOKEN:${{ secrets.STRAPI_TOKEN }} 
             file: .env.production
-      
-      - name: Install Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 14
       
       - name: Install Project Dependencies & Build
           
