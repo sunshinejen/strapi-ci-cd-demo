@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "./images/icon.png",
+        icon: "src/images/icon.png",
       },
     },
     "gatsby-plugin-mdx",
@@ -42,7 +42,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./images/",
+        path: "./src/images/",
       },
       __key: "images",
     },
@@ -50,7 +50,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "pages",
-        path: "./pages/",
+        path: "./src/pages/",
       },
       __key: "pages",
     },
