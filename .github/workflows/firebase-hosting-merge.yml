@@ -13,8 +13,6 @@ jobs:
       
       - name: Install Node.js
         uses: actions/setup-node@v3
-        with:
-          node-version: 14
     
       - name: Create .env file
         run: |
