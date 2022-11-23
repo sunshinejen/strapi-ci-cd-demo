@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Upcoming Webinars snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="upcoming-Webinars"
+  >
+    <div
+      class="container py-5"
+    >
+      <h5>
+        Upcoming Webinars
+      </h5>
+      <div
+        class="wrapper-grid"
+      >
+        <ul>
+          <li
+            class="webinar-items"
+            data-testid="upcoming-webinar-items"
+          >
+            Metaverse - Thursday, July 09, 2037
+          </li>
+          <li
+            class="webinar-items"
+            data-testid="upcoming-webinar-items"
+          >
+            Metaverse2 - Thursday, July 10, 2037
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

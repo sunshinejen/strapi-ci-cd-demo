@@ -9,7 +9,6 @@
 .team-header {
   background: linear-gradient(to left, #F4F3F2 92%, #FFFFFF 8%);
   margin-bottom: 3rem;
-  ;
 }
 
 .mobile {
@@ -218,7 +217,7 @@ img.card-image {
 
 /* Button */
 .team-buttons {
-  width: 90%;
+  width: 60%;
   margin: auto;
   text-align: center;
 }

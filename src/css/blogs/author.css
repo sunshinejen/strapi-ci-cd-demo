@@ -1,0 +1,31 @@
+.Author-Image{
+    /* max-width: 100%; */
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    position: absolute;
+    /* top: 30px; */
+    left: 180px; 
+    border-radius: 50%;
+}
+
+.Author-Card{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+}
+
+.Author-Info{
+    width: 95%;
+    padding: 20px 40px;
+    background-color: white;
+    padding-left: 60px;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 20%);
+}
+
+.Author-Image-Container{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -9,6 +9,10 @@
   cursor: pointer;
 }
 
+.popover {
+  max-width: 50%;
+}
+
 /* Vision & Mission */
 .header-goal {
   margin-bottom: 1.5rem;
@@ -33,24 +37,25 @@
 }
 
 /* Pop up */
-.close {
+button.close.btn.btn-primary {
   cursor: pointer;
   position: absolute;
   right: 1.5%;
   top: 1%;
+  width: auto;
+  box-shadow: none;
 }
 
 .content-card {
-  width: 50%;
+  width: 100%;
   padding: 2rem;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   background-color: white;
   position: absolute;
   z-index: 1;
   left: 35%;
   top: 30%;
-  right: 10%;
-  display: none;
+  right: 10%; */
 }
 
 .content-card img {

@@ -14,6 +14,25 @@
 .illustration-header img {
   height: 362px;
 }
+
+.event-img-div {
+  object-fit:cover;
+}
+
+img.e-img {
+  object-fit: cover;
+  height: 12rem;
+}
+
+.event-div {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+p.event-description {
+  flex: 1 0 auto;
+}
 /* @media screen and (max-width: 1000px) {
   .img {
     display: none;

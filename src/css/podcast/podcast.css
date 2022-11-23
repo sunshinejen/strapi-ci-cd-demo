@@ -1,0 +1,316 @@
+/* Podcast buttons */
+.podbtn {
+  color: #af8661;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.podbtn:hover {
+  color: #49423d;
+}
+
+/* More button */
+#see-more-button {
+  color: #af8661;
+  font-size: larger;
+}
+
+#see-more-button:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Down (chevron) arrow */
+#see-more-button i {
+  /* color: orangered; */
+  padding-left: 10px;
+}
+
+
+/* -------------- Latest Podcasts */
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.wrapper-list {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.grid-item {
+  overflow: hidden;
+  position: relative;
+  margin: 0.5rem
+}
+
+.latest-Podcasts {
+  width: 100%;
+  background-color: #f4f3f2;
+  padding-bottom: 1rem;
+}
+
+/* ------------------- Spotlight */
+.spotlight{
+  margin-bottom: 80px;
+  position: relative
+}
+
+.podcast-spotlight-containers {
+  overflow:auto;
+}
+
+.podcast-spotlight-image-container {
+  width: 75%;
+  border-radius: 8px;
+  float: right;
+}
+
+.podcast-spotlight-info{
+  width: 35%;
+  position: relative;
+  top: 25px;
+  left: 50px;
+  height: 50%;
+  display: inline-block;
+}
+
+.grid-item-spotlight{
+  position: absolute;
+  margin: 0.5rem;
+  display: inline-block;
+  width: 27.2%;
+  z-index: 5;
+  top: 120px;
+  left: 8%;
+  border-radius: 5px;
+}
+
+.spotlight-card{
+  background-color: #F4F3F2;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.spolight-no-data-msg{
+  padding: 2rem 1rem;
+  font-size: 2rem;
+}
+
+.spotlight-card-links{
+  margin-bottom: 15px;
+}
+
+/* /////////////////////////////////////////////// */
+@media only screen and (max-width: 1651px) {
+  .grid-item-spotlight{
+    position: absolute;
+    margin: 0.5rem;
+    display: inline-block;
+    width: 27.2%;
+    z-index: 5;
+    top: 260px;
+    left: 8%;
+    border-radius: 5px;
+  }
+}
+
+/* /////////////////////////////////////////////// */
+@media only screen and (max-width: 1500px) {
+  .grid-item-spotlight{
+    position: absolute;
+    margin: 0.5rem;
+    display: inline-block;
+    width: 27.2%;
+    z-index: 5;
+    top: 260px;
+    left: 8%;
+    border-radius: 5px;
+  }
+}
+
+/* /////////////////////////////////////////////// */
+@media only screen and (max-width: 1407px) {
+  .grid-item-spotlight{
+    position: absolute;
+    margin: 0.5rem;
+    display: inline-block;
+    width: 27.2%;
+    z-index: 5;
+    top: 220px;
+    left: 8%;
+    border-radius: 5px;
+  }
+}
+
+/* /////////////////////////////////////////////// */
+@media only screen and (max-width: 1399px) {
+  .grid-item-spotlight{
+    position: absolute;
+    margin: 0.5rem;
+    display: inline-block;
+    width: 27.2%;
+    z-index: 5;
+    top: 140px;
+    left: 8%;
+    border-radius: 5px;
+  }
+}
+
+/* /////////////////////////////////////////////// */
+@media only screen and (max-width: 1367px) {
+  .grid-item-spotlight{
+    position: absolute;
+    margin: 0.5rem;
+    display: inline-block;
+    width: 27.2%;
+    z-index: 5;
+    top: 140px;
+    left: 8%;
+    border-radius: 5px;
+  }
+}
+
+/* /////////////////////////////////////////////// */
+@media only screen and (max-width: 1336px) {
+  .grid-item-spotlight{
+    position: absolute;
+    margin: 0.5rem;
+    display: inline-block;
+    width: 27.2%;
+    z-index: 5;
+    top: 120px;
+    left: 7%;
+    border-radius: 5px;
+  }
+  
+}
+
+/*  ////////////////////////////////////////// */
+@media only screen and (max-width: 1199px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .grid-item-spotlight{
+    position: absolute;
+    margin: 0.5rem;
+    display: inline-block;
+    width: 32%;
+    z-index: 5;
+    top: 100px;
+    left: 4.5%;
+    border-radius: 5px;
+  }
+}
+
+/*  ////////////////////////////////////////// */
+@media only screen and (max-width: 1196px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .grid-item-spotlight{
+    position: absolute;
+    margin: 0.5rem;
+    display: inline-block;
+    width: 33%;
+    z-index: 5;
+    top: 100px;
+    left: 4%;
+    border-radius: 5px;
+  }
+}
+
+/*  ////////////////////////////////////////// */
+@media only screen and (max-width: 1160px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .grid-item-spotlight{
+    position: absolute;
+    margin: 0.5rem;
+    display: inline-block;
+    width: 34%;
+    z-index: 5;
+    top: 100px;
+    left: 2.5%;
+    border-radius: 5px;
+  }
+}
+
+/*  ////////////////////////////////////////// */
+@media only screen and (max-width: 1100px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .grid-item-spotlight{
+    position: absolute;
+    margin: 0.5rem;
+    display: inline-block;
+    width: 34%;
+    z-index: 5;
+    top: 100px;
+    left: 1%;
+    border-radius: 5px;
+  }
+}
+
+/* ///////////////////////////////////////////////*/
+@media only screen and (max-width: 991px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .grid-item-spotlight{
+    position: relative;
+    margin: 0rem;
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    z-index: 5;
+    top: 0px;
+    left: 0%;
+  }
+
+  .podcast-spotlight-containers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spotlight{
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  .podcast-spotlight-image-container {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .spotlight-card{
+    width: 100%;
+    border-radius: 5px;
+  }
+
+}
+.tooltip{
+  visibility: visible;
+}

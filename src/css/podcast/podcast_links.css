@@ -1,0 +1,88 @@
+.podcast-links-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.podcast-links-buttons a {
+    margin: 20px 0px;
+}
+
+.podbtn:hover{
+    color: black
+}
+
+/* -------------------- Spotlight links */
+.spotlight-card-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;    
+}
+
+/* ------------------- Podcast list view */
+.podcast-list-view{
+    display: inline-block;
+    display: flex;
+}
+
+.podcast-list-view-li{
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.podcast-list-view a svg {
+    width: 50% !important;
+    margin: 0px 10px;
+}
+
+.podcast-list-view a span {
+    display: none;
+}
+
+.podcast-list-view-li::before{
+    content: ".  ";
+    font-weight: bold;
+    width: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .podcast-list-view a svg {
+        width: 15px !important;
+        margin: 0px 10px;
+    }
+    
+    .podcast-list-view{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* display: inline-block; */
+        width: 25%;
+    }
+}
+
+/* ///////////////Tool Tip Styling//// Links Hover text /////// */
+.link-tag{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.link-tag:hover .hover-text{
+    visibility: visible;
+}
+
+.hover-text{
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align:center;
+    padding: 5px 0;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 35px;
+}

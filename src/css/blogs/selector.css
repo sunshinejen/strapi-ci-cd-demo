@@ -1,0 +1,63 @@
+.Article-and-author-selector-container{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+    padding: 5px 5px;
+    font-size: 10px;
+}
+
+.latest-articles{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: none;
+}
+
+.authors{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: none;
+}
+
+
+
+
+
+
+
+
+/* Activate Below when clicked */
+
+.latest-article-container{
+    border-bottom: 2px solid #AF8661;
+    margin: 0px 1rem;
+    display: inline-block;
+    color: #AF8661;
+}
+
+/* .latest-articles{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: none;
+    color: #AF8661;
+
+} */
+
+/* .latest-article-container button{
+    color: #AF8661;
+} */
+
+
+.author-container{
+    border-bottom: 2px solid #AF8661;
+    margin: 0px 1rem;
+    display: inline-block;
+    color: #AF8661;
+}
+
+/* .author-container button{
+    color: #AF8661;
+} */

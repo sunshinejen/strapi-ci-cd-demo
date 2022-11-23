@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Featured Webinar snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="page-section clearfix"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="intro"
+      >
+        <img
+          alt="..."
+          class="intro-img img-fluid mb-3 mb-lg-0 rounded"
+        />
+        <div
+          class="intro-text left-0 bg-faded p-4 rounded"
+        >
+          <h6
+            class="text-muted"
+          >
+            Thursday, July 09, 2037
+          </h6>
+          <h6
+            class="timeSubtitle"
+          >
+            3:00pm
+          </h6>
+          <h2
+            class="section-heading mb-4"
+          >
+            <span
+              class="section-heading-lower"
+            >
+              <h4>
+                 Racism, Why We Must Solve It in Technology
+              </h4>
+            </span>
+          </h2>
+          <div
+            class="mb-3"
+          >
+            <p>
+              We explore how can technology improve the treatment of racial groups and their interactions with the Police, and criminal justice system, improve equity in education, improve financial opportunities and more.
+            </p>
+          </div>
+          <a
+            class="button"
+            data-testid="registration-link"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeV3qKNMJDTZ6jb1sKlesJNCU4p_x4D0r5ZUUZ3VRgHsznJ1g/viewform"
+            style="text-decoration: none;"
+            target="_blank"
+            type="button"
+          >
+            Webinar Registration
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -8,21 +8,16 @@
   color: #6f6957;
 }
 
-.icon {
-  /* width: 6rem;
-  text-align: center;
-  margin-right: 0.8rem; */
-  /* display: flex;
-  flex-direction: column;
-  text-align: center; */
-}
-
-/*span {*/
-/*    display: inline-block;*/
-/*}*/
-
 span .fa-circle {
   color: rgb(104, 92, 78);
+}
+
+.contact-page-title{
+  margin-bottom: 20px;
+}
+
+.contact-page-content{
+  margin-bottom: 40px;
 }
 
 /* Responsive Header Textbox */

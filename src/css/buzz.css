@@ -5,15 +5,13 @@
   right: 20%;
 } */
 
-.bigCard {
-  width: 540px;
-}
 
 .page-buzz .illustration-header img {
   height: 308px;
 }
 
 @media screen and (max-width: 1200px) {
+
   /* .img {
     display: none;
   } */
@@ -38,3 +36,62 @@
   /* color: orangered; */
   padding-left: 10px;
 }
+
+/* Speaker Cards styles for every 4th */
+div#speaker-card:nth-of-type(4n) {
+  /* background-color: lime !important; */
+  width: 540px; /* fallback for emergencies */
+  width: calc(100% - 500px) !important;
+  width: -moz-calc(100% - 500px);
+  width: -webkit-calc(100% - 500px);
+}
+
+/* Speaker Cards style */
+div#speaker-card {
+  width: 250px !important;
+  width: calc(100% - 880px) !important;
+  width: -moz-calc(100% - 880px);
+  width: -webkit-calc(100% - 880px);
+}
+
+
+/* Participant Cards styles for every 1, 4, 7, 10, 13, etc.. */
+div#participant-card:nth-child(3n+1) {
+  width: 250px !important;
+  /* background-color: rgb(208, 0, 255) !important; */
+}
+
+div#participant-card {
+  width: 540px; /* fallback for emergencies */
+  width: calc(100% - 500px) !important;
+  width: -moz-calc(100% - 500px);
+  width: -webkit-calc(100% - 500px);
+}
+
+/* Volunteer Card styles  */
+
+div#volunteer-card:nth-child(3n+1),
+div#volunteer-card:nth-child(3n+8) {
+  /* background-color: rgb(246, 255, 0) !important; */
+  width: 540px; /* fallback for emergencies */
+  width: calc(100% - 350px) !important;
+  width: -moz-calc(100% - 350px);
+  width: -webkit-calc(100% - 350px);
+}
+
+div#volunteer-card:nth-child(5n) {
+  /* background-color: rgb(0, 255, 208) !important; */
+  width: 540px;
+  /* fallback for emergencies */
+  width: calc(100% - 55px) !important;
+  width: -moz-calc(100% - 55px);
+  width: -webkit-calc(100% - 55px);
+}
+
+div#volunteer-card {
+  width: 250px !important;
+}
+
+/* div#volunteer-card:nth-child(3n+8) {
+   background-color: rgb(255, 111, 0) !important; 
+} */
