@@ -4,7 +4,96 @@ html {
 
 /* -------------- Webinar Overview */
 .page-section {
-  margin-bottom: 5rem;
+  margin-bottom: 5rem !important;
+}
+
+h6.timeSubtitle {
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+}
+
+
+.web-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 22rem);
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.webcard {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2rem;
+  position: relative;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 0.25rem;
+}
+
+.web-grid {
+  overflow: hidden;
+  position: relative;
+  margin: 0.5rem;
+}
+
+h5.webcard-title {
+  flex: initial;
+}
+
+h6.card-subtitle.mb-2.text-muted {
+  color: #6c757d !important;
+}
+
+.webcard img {
+  padding: 1rem;
+}
+
+img.webCard-img-top {
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.webcard-body {
+  padding: 1.1rem;
+  background-color: #F4F3F2;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  height: 17rem;
+}
+
+.webcard-text {
+  margin-top: 0;
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+
+.webcard-text p {
+  margin-top: unset;
+  margin-bottom: unset;
+}
+
+
+h6.webcard-subtitle.mb-2.text-muted {
+  color: #6c757d !important;
+  margin-top: -0.375rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem !important;
+}
+
+button.readMoreBtn.btn-link {
+  text-align: left;
+  
+}
+
+button#see-more-button {
+  border: none;
 }
 
 .clearfix::after {
@@ -17,13 +106,14 @@ html {
   position: relative;
 }
 
+
 @media (min-width: 992px) {
-  .intro .intro-img {
+  img.intro-img.img-fluid.mb-3.mb-lg-0.rounded {
     width: 65%;
     float: right;
   }
 
-  .intro .intro-text {
+  .intro-text.left-0.bg-faded.p-4.rounded {
     left: 0;
     max-width: 23em;
     margin-top: 5rem;
@@ -32,17 +122,20 @@ html {
 }
 
 @media (min-width: 1200px) {
-  .intro .intro-img {
-    width: 75%;
+  img.intro-img.img-fluid.mb-3.mb-lg-0.rounded {
+    width: 77%;
+    float: right;
   }
 
-  .intro .intro-text {
-    max-width: 21em;
+  .intro-text.left-0.bg-faded.p-4.rounded {
+    left: 0;
+    max-width: 20em;
     margin-top: 6rem;
+    position: absolute;
   }
 }
 
-.rounded {
+img.intro-img.img-fluid.mb-3.mb-lg-0.rounded {
   border-radius: 0.25rem !important;
 }
 
@@ -57,7 +150,7 @@ html {
   text-align: left;
 }
 
-.intro-text > p {
+.intro-text>p {
   text-align: left;
 }
 
@@ -146,6 +239,7 @@ a:hover {
 }
 
 @media (max-width: 992px) {
+
   .wrapper-list,
   .wrapper-grid {
     grid-template-columns: 1fr;
@@ -180,9 +274,9 @@ a:hover {
   width: 80%;
 }
 
-@media (max-width: 992px) {
-  .upcoming-Webinars .card {
-    width: fit-content;
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
 }
 
@@ -198,15 +292,18 @@ a:hover {
 .card-body {
   background-color: #f4f3f2;
 }
+
 .card {
   width: 20rem;
   height: 100%;
   margin-bottom: 2rem;
 }
+
 .card button.read-more-btn {
   position: absolute;
   bottom: 14px;
 }
+
 @media (max-width: 992px) {
   .card {
     width: fit-content;
@@ -243,15 +340,19 @@ a:hover {
 .footer {
   background-color: #f4f3f2;
 }
+
 .webinar-list {
   display: none;
 }
+
 .morecards {
   display: none;
 }
+
 .remaining-webinars {
   display: none;
 }
+
 .card-text {
   font-size: 1rem;
   font-weight: 400;

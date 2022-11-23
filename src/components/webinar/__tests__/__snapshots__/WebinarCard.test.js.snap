@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Webinar Card snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="web-grid"
+  >
+    <div
+      class="webcard"
+    >
+      <img
+        alt="webinar poster"
+        class="webCard-img-top"
+        src="https://res.cloudinary.com/dlz977spb/image/upload/v1659651175/racism_solve_in_tech_flyer_bfdfe16a62.png"
+      />
+      <div
+        class="webcard-body"
+      >
+        <h6
+          class="webcard-subtitle mb-2 text-muted"
+        >
+          Thursday, July 09, 2037
+        </h6>
+        <h5
+          class="webcard-title"
+        >
+          Racism, Why We Must Solve It in Technology
+        </h5>
+        <div
+          class="webcard-text"
+        >
+          <p>
+            We explore how can technology improve the treatment of racial groups and their interactions with the Police, and criminal justice system, improve equity in education, improve financial opportunities and more.
+          </p>
+        </div>
+        <button
+          class="readMoreBtn btn-link"
+          data-testid="webinar-view-button"
+          style="color: rgb(175, 134, 97); text-decoration: none;"
+          type="button"
+        >
+          View Webinar
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

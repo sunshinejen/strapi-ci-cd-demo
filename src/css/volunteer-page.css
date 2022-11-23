@@ -1,5 +1,95 @@
 /*Volunteer Page*/
 
+/*button*/
+/* Button */
+.team-buttons {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .button-81,
+  .temporarily-disabled {
+    background-color: inherit;
+    border: none;
+    margin: 0.5rem 1rem;
+    box-sizing: border-box;
+    color: #444444;
+    cursor: pointer;
+    display: inline-block;
+    width: max-content;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  
+  .button-81 h5,
+  .temporarily-disabled h5 {
+    font-size: 1rem;
+  }
+  
+  @media (min-width: 1245px) {
+    .icon {
+      width: 35px;
+      height: 35px;
+      margin-right: 10px;
+      margin-bottom: 5px;
+    }
+  
+    .button-81,
+    .temporarily-disabled {
+      font-size: 1.4rem;
+    }
+  
+    .button-81,
+    .temporarily-disabled {
+      margin: 0.5rem 2.5rem;
+    }
+  }
+  
+  .temporarily-disabled {
+    color: gray;
+  }
+  
+  .active,
+  .button-81:hover {
+    color: #AF8661;
+  }
+  
+  .button-81:hover .default {
+    display: none;
+  }
+  
+  
+  .button-81:hover .highlighted {
+    display: block;
+  }
+  
+  .active .default {
+    display: none;
+  }
+  
+  .active .highlighted {
+    display: block;
+  }
+  
+  .button-81:focus,
+  .temporarily-disabled:focus {
+    outline: none;
+  }
+  
+  .highlighted {
+    display: none;
+  }
+/*end button*/
+
+
+
+
 .positions-section {
     background: #F4F3F2;
 }
@@ -55,7 +145,7 @@
     z-index: 2;
 }
 
-.w3-button {
+.btn-primary {
     margin-left: 2.5em;
     margin-right: 2.5em;
     margin-top: 1.4em;
@@ -76,17 +166,98 @@
 
 }
 
-.w3-button:hover {
+.btn-primary:hover {
    color: #AF8661;
 }
 
-.w3-button:focus {
+.btn-primary:focus {
    outline:  none;
 }
-
-.modal-title {
-    padding-top:  1.5rem;
+/* Button */
+.team-buttons {
+  width: 90%;
+  margin: auto;
+  text-align: center;
 }
+
+.button-81,
+.temporarily-disabled {
+  background-color: inherit;
+  border: none;
+  margin: 0.5rem 1rem;
+  box-sizing: border-box;
+  color: #444444;
+  cursor: pointer;
+  display: inline-block;
+  width: max-content;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 0;
+  margin-bottom: 5px;
+}
+
+.button-81 h5,
+.temporarily-disabled h5 {
+  font-size: 1rem;
+}
+
+@media (min-width: 1245px) {
+  .icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+
+  .button-81,
+  .temporarily-disabled {
+    font-size: 1.4rem;
+  }
+
+  .button-81,
+  .temporarily-disabled {
+    margin: 0.5rem 2.5rem;
+  }
+}
+
+.temporarily-disabled {
+  color: gray;
+}
+
+.active,
+.button-81:hover {
+  color: #AF8661;
+}
+
+.button-81:hover .default {
+  display: none;
+}
+
+
+.button-81:hover .highlighted {
+  display: block;
+}
+
+.active .default {
+  display: none;
+}
+
+.active .highlighted {
+  display: block;
+}
+
+.button-81:focus,
+.temporarily-disabled:focus {
+  outline: none;
+}
+
+.highlighted {
+  display: none;
+}
+
 
 ul p, li {
     font-size: 0.9rem;
@@ -96,7 +267,11 @@ li::marker {
     color: #AF8661;
     font-size: 1.3em;
 }
-
+.volunteer-buttons {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
 .modal-button {
     color: #AF8661;
     border: none;

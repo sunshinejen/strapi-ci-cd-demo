@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Footer2 from "../components/footer(white)";
+import Navbar from "./navigation/Navbar";
+import Footer from "./footer/Footer";
+import Footer2 from "./footer/footer(white)";
 import { ToastProvider } from "react-toast-notifications";
 import PropTypes from "prop-types";
 import "../css/main.css";
@@ -16,11 +16,10 @@ const Layout = ({ children, location }) => {
 
         <div>{children}</div>
 
-        {current_page === "/" ||
-         current_page === "/webinars" ||
-         current_page === "/young-professionals" ||
-         current_page === "/webinarsdemo" ||   
-         current_page === "/call-for-action/" ? (
+        {current_page == "/" ||
+        current_page == "/webinars" ||
+        current_page == "/young-professionals" ||
+        current_page == "/call-for-action/" ? (
           <Footer />
         ) : (
           <Footer2 />

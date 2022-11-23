@@ -1,0 +1,10 @@
+.btn:hover {
+    border-color: skyblue;
+}
+
+.filter-container{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 98%;
+    margin: auto;
+}

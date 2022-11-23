@@ -1,0 +1,119 @@
+/****************************** Spotlight Styling  */
+.Blogs-Spotlight{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Blogs-Spotlight-info{
+    display: inline-block;
+    background-color:#F4F3F2;
+    width: 39%;
+    margin-top: 20px;
+    height: 80%;
+    padding: 1.5rem;
+    border-radius: 5px;
+
+}
+
+.blogs-Spotlight-image-container{
+    background-color: green;
+    width: 60%;
+    display: inline-block;
+}
+
+.blogs-Spotlight-image{
+    max-width: 100%;
+}
+
+
+.Blogs-Spotlight-Author{
+    margin-bottom: 10px;
+}
+
+.Blogs-Spotlight-Title{
+    margin-bottom: 24px;
+}
+
+.Blogs-Spotlight-Description{
+    margin-bottom: 16px;
+}
+
+.Blogs-Articles-Container {
+    background-color: #F4F3F2;
+    padding-top: 3rem;
+}
+
+.Articles-ThumbNail-View{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    margin: 0px 2rem;
+}
+
+.Blogs-Spotlight-Link{
+    display: inline-block;
+    margin: 15px 0px;
+    border: 2px solid #AF8661;
+    padding: 8px 20px; 
+    border-radius: 50px;
+    text-decoration: none;
+    color: #AF8661;
+    font-size: 14px;
+}
+
+.More-Button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.1rem;
+    padding-bottom: 3.5rem;
+}
+
+.More-Button{
+    display: inline-block;
+    margin: 0px 0px;
+    padding: 8px 20px; 
+    text-decoration: none;
+    color: #AF8661;
+    font-size: 20px;
+    border: none;
+    background-color: #F4F3F2;
+}
+
+.More-icon{
+    font-weight: bold;
+    color: #AF8661;
+    padding-left: 5px;
+    padding-top: 3px;
+    font-size: 27px;
+    margin: 0px 0px;
+}
+
+
+/* Authors Container Style */
+.Authors-Container{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 0px 2rem;
+}
+
+.list-view-elements{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+}
+
+.list-article-element{
+    margin: 0px 15px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.list-article-element a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid #AF8661;
+    padding-bottom: 2px;
+}
