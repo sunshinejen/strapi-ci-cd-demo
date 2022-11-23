@@ -4,8 +4,8 @@ require("dotenv").config({
 const strapiConfig = {
   apiURL: process.env.STRAPI_API_URL,
   accessToken: process.env.STRAPI_TOKEN,
-  collectionTypes: ['user', 'webinar'],
-  singleTypes: [],
+  collectionTypes: ['user', 'webinar','podcast','event', 'team', 'volunteer', 'article', 'author','buzz', 'volunteer-role', 'upcoming-webinar'],
+  singleTypes: ['call-for-action-page', 'tech-for-young-professionals-page', 'home', 'contact-page'],
 };
 
 module.exports = {
@@ -54,6 +54,5 @@ module.exports = {
       },
       __key: "pages",
     },
-    
   ],
 };
